@@ -12,6 +12,7 @@ const App = () => {
         <img src={Image} alt="img" />
         <h3 className="bg-green-500 text-blue-500 p-4 font-semibold hover:bg-yellow-500 hover:text-red-500 ">Hello, Tailwind CSS!</h3>
       </div>
+      <h3>updated from develop branch</h3>
     </>
   )
 };
