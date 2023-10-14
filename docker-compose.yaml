@@ -1,0 +1,10 @@
+version: "3.7"
+services: 
+  mywebsite: 
+    image: test_build_final_1:1.1.0
+    ports: 
+      - "8080:80" 
+  mywebsite_2: 
+    image: test_build_final_1:1.1.0
+    ports: 
+      - "8081:80"
