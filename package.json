@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack",
-    "preview": "",
+    "preview": "yarn build && http-server ./build",
     "start": "webpack serve --open --config webpack.config.js --mode development",
     "watch:tailwind": "npx tailwindcss -i ./src/main.css -o ./src/style.css --watch",
     "watch": "webpack --watch"
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^14.1.1",
     "jest-environment-jsdom": "^29.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
