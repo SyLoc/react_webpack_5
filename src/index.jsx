@@ -10,6 +10,7 @@ import './style.css';
 import ErrorPage from './routers/ErrorPage';
 import Contact from './routers/Contact';
 import About from './routers/about';
+import TestJs from './routers/testJs';
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     {
       path:'/about',
       element: <About/>
+    },
+    {
+      path:'/test-js',
+      element: <TestJs/>
     }
   ]);
 
